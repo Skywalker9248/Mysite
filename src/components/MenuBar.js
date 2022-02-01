@@ -51,6 +51,7 @@ const Bar = styled(AppBar)
     right:'0px',
     boxSizing:'border-box',
 
+
 });
 const B= styled(Button)
 ({
