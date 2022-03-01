@@ -48,9 +48,9 @@ const MyCard = styled(Card)({
       borderRadius:'15px', /* added */
       background: '#202020',
       display: 'flex',
-      width:'95vw',
+      width:'80vw',
       flexDirection: 'column',
-      padding: '10px 10px',
+      padding: '15px 15px',
       marginTop:'15px',
       position:'relative',
       boxShadow: '0px 7px 29px 0px rgba(100, 100, 111, 0.2)'
