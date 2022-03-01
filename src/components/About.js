@@ -2,10 +2,11 @@ import React from "react";
 import { styled } from '@material-ui/core/styles';
 import { Grid, Typography} from "@material-ui/core";
 
+
 function About() 
 {
   return (
-    <div style={{backgroundColor: "black" ,height : '100%'}}>
+    <div style={{backgroundColor: "black" ,height : '100%vh'}}>
       <Grid
         container
         spacing={0}
@@ -65,7 +66,8 @@ const Topic= styled(Typography)
     fontFamily: 'Poppins',
     fontWeight: 500,
     letterSpacing: '0.5px',
-    fontSize:'32px'
+    fontSize:'32px',
+    padding : '5px'
 })
 
 const Txt= styled(Typography)
@@ -74,7 +76,8 @@ const Txt= styled(Typography)
     fontFamily: 'Poppins',
     fontWeight: 500,
     letterSpacing: '0.4px',
-    fontSize:'18.72px'
+    fontSize:'18.72px',
+    padding : '5px'
 })
 
 export default About;

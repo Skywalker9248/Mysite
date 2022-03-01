@@ -14,10 +14,10 @@ function Welcome() {
             alignItems="center"
             justifyContent="center">
                 <ImageBox>
-                     <img src="/yoda.gif" alt="logo" position="relative" style={{ size: "100%"}} />
+                     <img src="/obiwan.gif" alt="logo"  width='100%vw' style={{ size: "100%"}} />
                 </ImageBox>
                 <p>
-                    <Txt><h1 >...HEY ,MY NAME IS RON SUNNY...</h1></Txt>
+                    <Txt><h1 >...HEY, MY NAME IS RON SUNNY...</h1></Txt>
                 </p>
              </Grid>   
            
@@ -28,9 +28,9 @@ const ImageBox= styled(Box)
 ({
     
     flexGrow:'1',
-    resizeMode:'contain',
     position:'sticky',
-    padding:'5px',
+    padding:'10px',
+
  
    
 });

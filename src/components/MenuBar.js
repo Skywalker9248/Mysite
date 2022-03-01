@@ -44,12 +44,9 @@ const Bar = styled(AppBar)
     
     background: '#202A44',
     position:'sticky',
-    flexGrow:'1',
-    width:'100%',
+    width:'100%vw',
     top:'0px',
-    left:'auto',
-    right:'0px',
-    boxSizing:'border-box',
+    
 
 
 });
@@ -65,14 +62,5 @@ const B= styled(Button)
     
    
 });
-// const IconBox = styled(Box)({
-//     height: '35px',
-//     left: '5px',
-//     width: '35px',
-//     borderRadius:'5px',
-//     position:'absolute',
-//     padding:'10px 10px',
-//     background:'#011936',
-// });
-    
+
 export default MenuBar;

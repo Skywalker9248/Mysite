@@ -1,34 +1,4 @@
-<Link to="/page2"><button>
-              Go to Page 2 
-            </button>
-            </Link>
-
-            <BrowserRouter>
-       <Routes>
-        <Route exact path="/component/Welcome" component={Welcome} />
-        <Route path="/component/About" component={About} />
-      </Routes>
-      </BrowserRouter>
-
-
-       <><div>
-                <AppBar />
-            </div><div>
-                    <p>
-                        Welcome
-                        <br />
-                    </p>
-                </div></>
-
-
-
-                <Link to="/Welcome">
-                            <Button>
-                                 <h3>Home</h3>
-                             </Button>
-                        </Link>
-                        <Link to="/About">
-                            <Button>
-                                 <h3>About Me</h3>
-                             </Button>
-                        </Link>
+<Text>
+              <p> {FaEnvelope} : ronsunny19@gmail.com </p>
+              <p> {FaGithub} : https://github.com/Skywalker9248 </p>
+              </Text>

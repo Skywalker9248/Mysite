@@ -46,7 +46,7 @@ const TBox= styled(Box)
     borderRadius:'15px', /* added */
     background: '#202020',
     display: 'flex',
-    width:'50vh',
+    width:'75vw',
     flexDirection: 'column',
     padding: '10px 10px',
     margin:'10px 10px',

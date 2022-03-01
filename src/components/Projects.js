@@ -7,12 +7,15 @@ import data from "./data.js";
 class Projects extends React.Component {
     render() {
         return (
-                < div style={{backgroundColor: "black" ,height : '120%'}}>
+                < div style={{backgroundColor: "black" ,height : '100%vh'}}>
                     <CssBaseline/>
                     <Container>
                         <Grid 
                         container
-                        spacing={5}
+                        spacing={0}
+                        direction="column"
+                        alignItems="center"
+                         justifyContent="center"
                        >
                           {data.map(count=>
                             {
@@ -45,10 +48,10 @@ const MyCard = styled(Card)({
       borderRadius:'15px', /* added */
       background: '#202020',
       display: 'flex',
-      width:'356px',
+      width:'95vw',
       flexDirection: 'column',
       padding: '10px 10px',
-      margin:'10px 10px',
+      marginTop:'15px',
       position:'relative',
       boxShadow: '0px 7px 29px 0px rgba(100, 100, 111, 0.2)'
       
